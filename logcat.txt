@@ -1,0 +1,257 @@
+05-25 11:27:31.978  32270-32270/com.anhmantk.fb D/APPLICATION﹕ Loading lifecycle listeners
+05-25 11:27:32.247  32270-32270/com.anhmantk.fb D/ContextHelper﹕ convertTheme. context->name=com.anhmantk.fb themeResourceId=2131034139
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Accelerometer Sensor, handle=0
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Magnetometer Sensor, handle=10
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Magnetometer Sensor Uncalibrated, handle=11
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Proximity Sensor, handle=48
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Gravity Sensor, handle=29
+05-25 11:27:32.782  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Linear Acceleration Sensor, handle=30
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Rotation Vector Sensor, handle=36
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Step Detector Sensor, handle=43
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Step Counter Sensor, handle=44
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Significant Motion Detector Sensor, handle=47
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE GeoMagnetic Rotation Vector Sensor, handle=53
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Orientation Sensor, handle=49
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Tilt Detector Sensor, handle=55
+05-25 11:27:32.783  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Absolute Motion Detector Sensor, handle=33
+05-25 11:27:32.784  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: LGE Relative Motion Detector Sensor, handle=34
+05-25 11:27:32.784  32270-32270/com.anhmantk.fb D/SensorManager﹕ found sensor: Motion Accel, handle=46
+05-25 11:27:32.785  32270-32270/com.anhmantk.fb V/ApportableOrientationEventListener﹕ deviceModel = LG-D410, orientation adjustment = false
+05-25 11:27:32.800  32270-32270/com.anhmantk.fb I/SensorManager﹕ registerListenerImpl() [Sensor: LGE Accelerometer Sensor, Rate: 200000, SensorEventListener: android.view.OrientationEventListener$SensorEventListenerImpl@2a4a24d3] by android.view.OrientationEventListener.enable():93
+05-25 11:27:33.079  32270-32270/com.anhmantk.fb V/com.apportable.AssetManager﹕ App Expansion Files: main: version:0 size:0.
+05-25 11:27:33.079  32270-32270/com.anhmantk.fb V/com.apportable.AssetManager﹕ App does not have Expansion Files
+05-25 11:27:33.123  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Scanning ABI armeabi
+05-25 11:27:33.123  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Scanning ABI armeabi-v7a
+05-25 11:27:33.141  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'v'...
+05-25 11:27:33.270  32270-32382/com.anhmantk.fb W/ContextImpl﹕ Failed to ensure directory: /storage/external_SD/Android/data/com.anhmantk.fb/cache
+05-25 11:27:33.274  32270-32290/com.anhmantk.fb I/art﹕ Background sticky concurrent mark sweep GC freed 13880(666KB) AllocSpace objects, 1(16KB) LOS objects, 3% free, 7MB/7MB, paused 4.507ms total 118.095ms
+05-25 11:27:33.292  32270-32382/com.anhmantk.fb W/ContextImpl﹕ Failed to ensure directory: /storage/external_SD/Android/obb/com.anhmantk.fb
+05-25 11:27:33.301  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 161 ms
+05-25 11:27:33.301  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'cxx'...
+05-25 11:27:33.305  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 3 ms
+05-25 11:27:33.305  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'System'...
+05-25 11:27:33.306  32270-32382/com.anhmantk.fb W/linker﹕ libSystem.so has text relocations. This is wasting memory and prevents security hardening. Please fix.
+05-25 11:27:33.316  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 11 ms
+05-25 11:27:33.316  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'icu'...
+05-25 11:27:33.320  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 4 ms
+05-25 11:27:33.320  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CoreFoundation'...
+05-25 11:27:33.328  32270-32382/com.anhmantk.fb I/objc﹕ Class NSBlock is implemented in two different images.
+05-25 11:27:33.334  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 14 ms
+05-25 11:27:33.334  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'xml2'...
+05-25 11:27:33.336  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.336  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CommonCrypto'...
+05-25 11:27:33.340  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 3 ms
+05-25 11:27:33.340  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'crypto_1_01k'...
+05-25 11:27:33.342  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.342  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'ssl_1_01k'...
+05-25 11:27:33.345  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 3 ms
+05-25 11:27:33.345  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'Security'...
+05-25 11:27:33.347  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.347  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'SystemConfiguration'...
+05-25 11:27:33.349  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.349  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CFNetwork'...
+05-25 11:27:33.354  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 5 ms
+05-25 11:27:33.354  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'Foundation'...
+05-25 11:27:33.663  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 309 ms
+05-25 11:27:33.663  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'GraphicsServices'...
+05-25 11:27:33.665  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.665  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CoreGraphics'...
+05-25 11:27:33.672  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 7 ms
+05-25 11:27:33.672  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'BridgeKit'...
+05-25 11:27:33.697  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 25 ms
+05-25 11:27:33.698  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'OpenAL'...
+05-25 11:27:33.699  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ alc_opensles_init
+05-25 11:27:33.702  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ API:21
+05-25 11:27:33.702  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ Model:LG-D410
+05-25 11:27:33.702  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 4 ms
+05-25 11:27:33.702  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'gles_apportable'...
+05-25 11:27:33.704  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2 ms
+05-25 11:27:33.704  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'pango'...
+05-25 11:27:33.709  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 5 ms
+05-25 11:27:33.709  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CoreText'...
+05-25 11:27:35.383  32270-32270/com.anhmantk.fb E/AndroidAudioManager﹕ Failed waiting for AudioManagerService!
+05-25 11:27:40.775  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 7066 ms
+05-25 11:27:40.775  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'CoreAudio'...
+05-25 11:27:40.785  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 10 ms
+05-25 11:27:40.785  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'AudioFile'...
+05-25 11:27:40.808  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 23 ms
+05-25 11:27:40.808  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'AudioUnit'...
+05-25 11:27:40.832  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 24 ms
+05-25 11:27:40.832  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'AudioToolbox'...
+05-25 11:27:40.839  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ API:21
+05-25 11:27:40.839  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ Model:LG-D410
+05-25 11:27:40.839  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 7 ms
+05-25 11:27:40.839  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'sqlite_3_7_5'...
+05-25 11:27:40.850  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 11 ms
+05-25 11:27:40.850  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loading library 'Application'...
+05-25 11:27:40.901  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_idle id: android.os.BinderProxy@3b82250e time:612920140
+05-25 11:27:41.330  32270-32290/com.anhmantk.fb I/art﹕ CheckpointMarkThreadRoots callback created = 0xaaeb24f0
+05-25 11:27:41.412  32270-32290/com.anhmantk.fb I/art﹕ CheckpointMarkThreadRoots callback created = 0xaaeb24a0
+05-25 11:27:43.147  32270-32382/com.anhmantk.fb D/LibraryManager﹕ Loaded in 2297 ms
+05-25 11:27:43.221  32270-32270/com.anhmantk.fb D/VerdeActivity﹕ No updater.
+05-25 11:27:43.319  32270-32270/com.anhmantk.fb V/Security﹕ android.android_market_pubkey not found
+05-25 11:27:43.322  32270-32270/com.anhmantk.fb D/ApportableIAP﹕ Starting setup.
+05-25 11:27:43.326  32270-32270/com.anhmantk.fb D/IabHelper﹕ Starting in-app billing setup.
+05-25 11:27:43.958  32270-32382/com.anhmantk.fb I/Adreno-EGL﹕ <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_LA.BF.1.1.1_RB1.05.00.00.042.005_msm8226_LA.BF.1.1.1_RB1__release_AU ()
+    OpenGL ES Shader Compiler Version: E031.25.03.00
+    Build Date: 12/29/14 Mon
+    Local Branch:
+    Remote Branch: quic/LA.BF.1.1.1_rb1.3
+    Local Patches: NONE
+    Reconstruct Branch: AU_LINUX_ANDROID_LA.BF.1.1.1_RB1.05.00.00.042.005 +  NOTHING
+05-25 11:27:44.101  32270-32382/com.anhmantk.fb V/choosePreferredConfigOrder﹕ using fast_color
+05-25 11:27:44.125  32270-32382/com.anhmantk.fb V/Apportable﹕ About to try 48 configurations
+05-25 11:27:44.138  32270-32382/com.anhmantk.fb V/Apportable﹕ Chosen EGLConfig accepted:
+05-25 11:27:44.138  32270-32382/com.anhmantk.fb V/Apportable﹕ conf = com.google.android.gles_jni.EGLConfigImpl@2641c7e6
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_RED_SIZE = 5
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_GREEN_SIZE = 6
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_BLUE_SIZE = 5
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_ALPHA_SIZE = 0
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_DEPTH_SIZE = 24
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_STENCIL_SIZE = 8
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_BUFFER_SIZE = 16
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_CONFIG_ID = 3
+05-25 11:27:44.139  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_LEVEL = 0
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_MAX_PBUFFER_WIDTH = 4096
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_MAX_PBUFFER_HEIGHT = 4096
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_MAX_PBUFFER_PIXELS = 16777216
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_NATIVE_VISUAL_ID = 4
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_NATIVE_VISUAL_TYPE = 0
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_SAMPLE_BUFFERS = 0
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_SAMPLES = 0
+05-25 11:27:44.140  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_TRANSPARENT_TYPE = 12344
+05-25 11:27:44.141  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_CONFIG_CAVEAT = 12344 (12344,12368,12369)
+05-25 11:27:44.141  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_NATIVE_RENDERABLE = 0
+05-25 11:27:44.141  32270-32382/com.anhmantk.fb V/Apportable﹕ EGL_SURFACE_TYPE = 1445 EGL_WINDOW_BIT=4 EGL_PBUFFER_BIT=1 EGL_PIXMAP_BIT=2
+05-25 11:27:44.188  32270-32382/com.anhmantk.fb V/ApportableOrientationEventListener﹕ deviceModel = LG-D410, orientation adjustment = false
+05-25 11:27:44.208  32270-32382/com.anhmantk.fb I/Notifications﹕ No notifications list exists yet.
+05-25 11:27:44.211  32270-32270/com.anhmantk.fb I/SensorManager﹕ registerListenerImpl() [Sensor: LGE Accelerometer Sensor, Rate: 200000, SensorEventListener: android.view.OrientationEventListener$SensorEventListenerImpl@16ce6127] by android.view.OrientationEventListener.enable():93
+05-25 11:27:44.424  32270-32382/com.anhmantk.fb W/Adreno-ES20﹕ <get_simple_queries:1544>: GL_INVALID_ENUM
+05-25 11:27:44.736  32270-32382/com.anhmantk.fb E/AndroidAudioManager﹕ Failed waiting for AudioManagerService!
+05-25 11:27:44.741  32270-32382/com.anhmantk.fb V/AudioManager﹕ requestAudioFocus() Request Package = com.anhmantk.fb
+05-25 11:27:44.795  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ opensles_open_playback pDevice=0x96cc7000, deviceName=(null)
+05-25 11:27:44.843  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ alc_opensles_probe DEVICE_PROBE
+05-25 11:27:44.846  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ opensles_reset_playback pDevice=0x96cc7000
+05-25 11:27:44.846  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ bits=16, channels=2, samples=1024, size=4096, freq=44100
+05-25 11:27:44.846  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ opensles_open_playback pDevice=0x96cc7000, deviceName=
+05-25 11:27:44.846  32270-32382/com.anhmantk.fb I/OpenAL_SLES﹕ create audio player
+05-25 11:27:44.874  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 2
+05-25 11:27:44.874  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() new output samplingRate 48000, format 0x5 channel mask 0x3 frameCount 960 latency 50
+05-25 11:27:44.875  32270-32301/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 4
+05-25 11:27:44.875  32270-32301/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() new output samplingRate 48000, format 0x1 channel mask 0x3 frameCount 960 latency 80
+05-25 11:27:44.878  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 6
+05-25 11:27:44.878  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() new output samplingRate 48000, format 0x5 channel mask 0x3 frameCount 1152 latency 112
+05-25 11:27:44.879  32270-32382/com.anhmantk.fb V/AudioTrack﹕ set(): streamType 3, sampleRate 44100, format 0x1, channelMask 0x3, frameCount 0, flags #4, notificationFrames 0, sessionId 36702, transferType 0
+05-25 11:27:44.879  32270-32382/com.anhmantk.fb V/AudioTrack﹕ set() streamType 3, sampleRate 44100, format 1, frameCount 0, flags 0004
+05-25 11:27:44.890  32270-32382/com.anhmantk.fb D/AudioTrack﹕ TrackOffload: AudioTrack Offload disabled by property, returning false
+05-25 11:27:44.894  32270-32382/com.anhmantk.fb V/AudioSystem﹕ getLatency() output 2, latency 50
+05-25 11:27:44.894  32270-32382/com.anhmantk.fb V/AudioSystem﹕ getFrameCount() output 2, frameCount 960
+05-25 11:27:44.894  32270-32382/com.anhmantk.fb W/AudioTrack﹕ AUDIO_OUTPUT_FLAG_FAST denied by client
+05-25 11:27:44.894  32270-32382/com.anhmantk.fb V/AudioTrack﹕ createTrack_l() output 2 afLatency 50
+05-25 11:27:44.895  32270-32382/com.anhmantk.fb V/AudioTrack﹕ afFrameCount=960, minBufCount=2, afSampleRate=48000, afLatency=50
+05-25 11:27:44.895  32270-32382/com.anhmantk.fb V/AudioTrack﹕ minFrameCount: 2646, afFrameCount=960, minBufCount=3, sampleRate=44100, afSampleRate=48000, afLatency=50
+05-25 11:27:44.895  32270-32382/com.anhmantk.fb V/AudioTrack﹕ Create normal PCM 0x1 Track
+05-25 11:27:44.899  32270-32382/com.anhmantk.fb V/AudioTrack﹕ Flags here  0x0
+05-25 11:27:44.910    32270-528/com.anhmantk.fb I/OpenAL_SLES﹕ playback_function started
+05-25 11:27:44.911    32270-528/com.anhmantk.fb I/OpenAL﹕ _SC_NPROCESSORS_ONLN=4
+05-25 11:27:44.934  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.934 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.934  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.934 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.204085 seconds ago. Doing nothing.
+05-25 11:27:44.935  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.935 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.935  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.935 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.204806 seconds ago. Doing nothing.
+05-25 11:27:44.935  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.935 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.936  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.936 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.205391 seconds ago. Doing nothing.
+05-25 11:27:44.936  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.936 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.936  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.936 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.205905 seconds ago. Doing nothing.
+05-25 11:27:44.936  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.936 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.937  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.937 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.206428 seconds ago. Doing nothing.
+05-25 11:27:44.937  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.937 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.937  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.937 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.206954 seconds ago. Doing nothing.
+05-25 11:27:44.938  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.937 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.938  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.938 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.207469 seconds ago. Doing nothing.
+05-25 11:27:44.938  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.938 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.950  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.950 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.219343 seconds ago. Doing nothing.
+05-25 11:27:44.950  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.950 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.950  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.950 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.220118 seconds ago. Doing nothing.
+05-25 11:27:44.951  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.951 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.951  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.951 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.220764 seconds ago. Doing nothing.
+05-25 11:27:44.952  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.951 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.952  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.952 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.221530 seconds ago. Doing nothing.
+05-25 11:27:44.954  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.954 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.954  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.954 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.223996 seconds ago. Doing nothing.
+05-25 11:27:44.955  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.955 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.955  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.955 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.224702 seconds ago. Doing nothing.
+05-25 11:27:44.955  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.955 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.956  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.956 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.225602 seconds ago. Doing nothing.
+05-25 11:27:44.956  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.956 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.956  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.956 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.226275 seconds ago. Doing nothing.
+05-25 11:27:44.957  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.957 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.957  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.957 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.226839 seconds ago. Doing nothing.
+05-25 11:27:44.957  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.957 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.958  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.958 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.227441 seconds ago. Doing nothing.
+05-25 11:27:44.958  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.958 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.958  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.958 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.227958 seconds ago. Doing nothing.
+05-25 11:27:44.959  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.959 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.959  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.959 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.228552 seconds ago. Doing nothing.
+05-25 11:27:44.959  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.959 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.959  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.959 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.229134 seconds ago. Doing nothing.
+05-25 11:27:44.960  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.960 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.960  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.960 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.229697 seconds ago. Doing nothing.
+05-25 11:27:44.960  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.960 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.961  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.961 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.230331 seconds ago. Doing nothing.
+05-25 11:27:44.961  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.961 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.961  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.961 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.230947 seconds ago. Doing nothing.
+05-25 11:27:44.962  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.962 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.964  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.964 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.231664 seconds ago. Doing nothing.
+05-25 11:27:44.964  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.964 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.965  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.965 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.234377 seconds ago. Doing nothing.
+05-25 11:27:44.965  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.965 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.965  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.965 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.235008 seconds ago. Doing nothing.
+05-25 11:27:44.966  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.966 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.966  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.966 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.235618 seconds ago. Doing nothing.
+05-25 11:27:44.966  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.966 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.966  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.966 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.236200 seconds ago. Doing nothing.
+05-25 11:27:44.967  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.967 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.967  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.967 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.236761 seconds ago. Doing nothing.
+05-25 11:27:44.967  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.967 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.968  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.968 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.237428 seconds ago. Doing nothing.
+05-25 11:27:44.968  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.968 FBAndroid[32270:2999] OAL Error: +[ALWrapper sourcef:parameter:value:]: Invalid Value (error code 0x0000a003)
+05-25 11:27:44.968  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:27:44.968 FBAndroid[32270:2999] OAL Warning: -[OALAudioSession onAudioError:]: Received audio error notification, but last reset was 0.238114 seconds ago. Doing nothing.
+05-25 11:27:45.335  32270-32270/com.anhmantk.fb D/IabHelper﹕ Billing service connected.
+05-25 11:27:45.345  32270-32270/com.anhmantk.fb D/IabHelper﹕ Checking for in-app billing 3 support.
+05-25 11:27:45.487  32270-32270/com.anhmantk.fb D/IabHelper﹕ In-app billing version 3 supported for com.anhmantk.fb
+05-25 11:27:45.494  32270-32270/com.anhmantk.fb D/IabHelper﹕ Subscriptions AVAILABLE.
+05-25 11:27:45.497  32270-32270/com.anhmantk.fb D/ApportableIAP﹕ Setup finished.
+05-25 11:27:45.647  32270-32270/com.anhmantk.fb I/SensorManager﹕ removeAllSensors() [Sensor: LGE Accelerometer Sensor] by android.view.OrientationEventListener.disable():108
+05-25 11:28:09.071  32270-32382/com.anhmantk.fb I/ViewRootImpl﹕ ViewRoot's Touch Event : ACTION_DOWN
+05-25 11:28:09.169  32270-32382/com.anhmantk.fb I/ViewRootImpl﹕ ViewRoot's Touch Event : ACTION_UP
+05-25 11:28:09.175  32270-32382/com.anhmantk.fb D/FBAndroid﹕ 2015-05-25 11:28:09.174 FBAndroid[32270:2999] ==> login action
+05-25 11:28:09.179  32270-32382/com.anhmantk.fb E/MSG﹕ start login facebook
+05-25 11:28:09.285   32270-1272/com.anhmantk.fb W/ActivityThread﹕ ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+05-25 11:28:09.317   32270-1272/com.anhmantk.fb D/libc-netbsd﹕ [getaddrinfo]: hostname=xxxxx; servname=(null); cache_mode=(null), netid=0; mark=0
+05-25 11:28:09.318   32270-1272/com.anhmantk.fb D/libc-netbsd﹕ [getaddrinfo]: ai_addrlen=0; ai_canonname=xxxxx; ai_flags=4; ai_family=0
+05-25 11:28:09.320   32270-1272/com.anhmantk.fb D/libc-netbsd﹕ [getaddrinfo]: hostname=xxxxx; servname=(null); cache_mode=(null), netid=0; mark=0
+05-25 11:28:09.320   32270-1272/com.anhmantk.fb D/libc-netbsd﹕ [getaddrinfo]: ai_addrlen=0; ai_canonname=xxxxx; ai_flags=1024; ai_family=0
+05-25 11:28:09.325   32270-1272/com.anhmantk.fb I/System.out﹕ propertyValue:false
+05-25 11:28:09.373  32270-32382/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_launch_request id:com.anhmantk.fb time:612948610
+05-25 11:28:09.461  32270-32382/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_launch_request id:com.anhmantk.fb time:612948699
+05-25 11:28:09.474  32270-32382/com.anhmantk.fb E/MSG﹕ ==> loginFB
+05-25 11:28:09.510  32270-32382/com.anhmantk.fb E/AndroidAudioManager﹕ Failed waiting for AudioManagerService!
+05-25 11:28:09.586  32270-32270/com.anhmantk.fb D/ContextHelper﹕ convertTheme. context->name=com.anhmantk.fb themeResourceId=16973840
+05-25 11:28:09.728  32270-32270/com.anhmantk.fb D/ContextHelper﹕ convertTheme. context->name=com.anhmantk.fb themeResourceId=16973840
+05-25 11:28:09.774  32270-32270/com.anhmantk.fb I/SensorManager﹕ removeAllSensors() [Sensor: LGE Accelerometer Sensor] by android.view.OrientationEventListener.disable():108
+05-25 11:28:10.139  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_idle id: android.os.BinderProxy@3debcc91 time:612949377
+05-25 11:28:10.139  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_idle id: android.os.BinderProxy@2a750b59 time:612949377
+05-25 11:28:11.333  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_idle id: android.os.BinderProxy@2a750b59 time:612950572
+05-25 11:28:11.353  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_launch_request id:com.facebook.katana time:612950592
+05-25 11:28:18.798  32270-32270/com.anhmantk.fb W/IInputConnectionWrapper﹕ showStatusIcon on inactive InputConnection
+05-25 11:28:19.573  32270-32270/com.anhmantk.fb E/AndroidAudioManager﹕ Failed waiting for AudioManagerService!
+05-25 11:28:19.573  32270-32270/com.anhmantk.fb V/AudioManager﹕ requestAudioFocus() Request Package = com.anhmantk.fb
+05-25 11:28:19.611  32270-32270/com.anhmantk.fb I/Timeline﹕ Timeline: Activity_idle id: android.os.BinderProxy@3b82250e time:612958850
+05-25 11:28:20.458  32270-32270/com.anhmantk.fb I/SensorManager﹕ registerListenerImpl() [Sensor: LGE Accelerometer Sensor, Rate: 200000, SensorEventListener: android.view.OrientationEventListener$SensorEventListenerImpl@16ce6127] by android.view.OrientationEventListener.enable():93
+05-25 11:28:20.530   32270-1612/com.anhmantk.fb I/OpenAL_SLES﹕ playback_function started
+05-25 11:28:31.820  32270-32301/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 4
+05-25 11:28:31.820  32270-32301/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() opening already existing output! 4
+05-25 11:28:31.821    32270-562/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 6
+05-25 11:28:31.821    32270-562/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() opening already existing output! 6
+05-25 11:28:31.831  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() event 0, ioHandle 2
+05-25 11:28:31.831  32270-32296/com.anhmantk.fb V/AudioSystem﹕ ioConfigChanged() opening already existing output! 2

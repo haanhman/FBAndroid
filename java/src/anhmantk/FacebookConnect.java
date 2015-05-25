@@ -82,9 +82,7 @@ public class FacebookConnect extends Activity {
     
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        
         Log.e(TAG,"==> onActivityResult");
-        
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
