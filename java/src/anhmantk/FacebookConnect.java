@@ -26,6 +26,7 @@ public class FacebookConnect extends Activity {
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //not run here
         super.onCreate(savedInstanceState);
         Log.e(TAG,"==> onCreate");
     }
@@ -33,7 +34,6 @@ public class FacebookConnect extends Activity {
     public void initFB(final Activity activity){
         Log.e(TAG,"start login facebook");
         FacebookSdk.sdkInitialize(activity.getApplicationContext());
-        //FacebookSdk.sdkInitialize(activity);
         callbackManager = CallbackManager.Factory.create();
     }
     
@@ -47,7 +47,7 @@ public class FacebookConnect extends Activity {
                                                         @Override
                                                         public void onSuccess(LoginResult loginResult) {
                                                             loginStatus = 1;
-                                                            Log.e(TAG, "Dang nhap thanh cong");
+                                                            Log.e(TAG, "Login success");
                                                             Log.e(TAG, loginResult.getAccessToken().toString());
                                                             finish();
                                                         }
@@ -55,7 +55,7 @@ public class FacebookConnect extends Activity {
                                                         @Override
                                                         public void onCancel() {
                                                             loginStatus = 2;
-                                                            Log.e(TAG, "Dang nhap that bai");
+                                                            Log.e(TAG, "Login cancel");
                                                             Log.e(TAG, "==> onCancel");
                                                             finish();
                                                         }
@@ -63,7 +63,7 @@ public class FacebookConnect extends Activity {
                                                         @Override
                                                         public void onError(FacebookException exception) {
                                                             loginStatus = 3;
-                                                            Log.e(TAG, "Co loi trong qua trinh dang nhap");
+                                                            Log.e(TAG, "Login error");
                                                             Log.e(TAG, "Error: " + exception.getMessage().toString());
                                                         }
                                                     });
@@ -80,19 +80,11 @@ public class FacebookConnect extends Activity {
         accessTokenTracker.stopTracking();
     }
     
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        
-//        Log.e(TAG,"==> onActivityResult");
-//        
-//        super.onActivityResult(requestCode, resultCode, data);
-//        callbackManager.onActivityResult(requestCode, resultCode, data);
-//    }
-    
     @Override
-    protected void onActivityResult(final int requestCode,
-                                    final int resultCode, final Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        
         Log.e(TAG,"==> onActivityResult");
+        
         super.onActivityResult(requestCode, resultCode, data);
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
