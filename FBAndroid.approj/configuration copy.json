@@ -1,0 +1,480 @@
+{
+  "configuration_format_version": 2,
+
+   "default_target": {"project": "FBAndroid", "project_config": "Release", "target": "FBAndroid"},
+
+
+  // Dictionary of global configuration parameters.
+  // These parameters are not taken from the xcode project,
+  // so they need to be supplied by the user.
+  "config": {
+
+    // A short name to identify the application.
+    // Used to decide the APK filename, but not shown
+    // anywhere in the app.
+    // "APPLICATION_NAME": "",
+
+    // The name of the application to display in the launcher
+    "APPLICATION_FULL_NAME": "Facebook Android",
+
+    // The unique identifier for the application.
+    // Normally this is in reverse DNS notation, e.g.,
+    // "com.apportable.Spin"
+    "APPLICATION_IDENTIFIER": "com.anhmantk.fb",
+
+    // Short version name for the app, e.g., "1.0"
+    // "SHORT_VERSION": "",
+
+    // A list of features needed on the target platform.
+    // Common features include:
+    //   "accelerometer"
+    //   "access_network_state"
+    //   "access_wifi_state"
+    //   "atc_slow_surface"
+    //   "billing"
+    //   "c2dm_receive"
+    //   "check_license"
+    //   "get_accounts"
+    //   "large_heap"
+    //   "large_heap"
+    //   "live_wallpaper"
+    //   "multitouch"
+    //   "multitouch_distinct"
+    //   "multitouch_jazzhand"
+    //   "NFC"
+    //   "no_internet"
+    //   "notifications"
+    //   "opengles2"
+    //   "portrait"
+    //   "prefer_external_storage"
+    //   "read_phone_state"
+    //   "stencil_buffer"
+    //   "touch_filter_move"
+    //   "touchscreen"
+    //   "true_color"
+    //   "vibrate"
+    //   "wake_lock"
+    //   "write_external_storage"
+    //   "write_settings"
+    //   "xperia"
+    "FEATURES": ["opengles2", "facebook"],
+
+    // Preferred way of handling URLs in the code.
+    // Leave it null for most cases.
+    //"URL_SCHEME": null,
+
+    // Key to receive remote notifications on the device.
+    //"REMOTE_NOTIFICATION_KEY": "",
+
+    // The method for adjusting the splash screen (Default.png)
+    // to fit the native device resolution.  Options are:
+    //   "aspect_fill"
+    //   "aspect_fit"
+    //   "letterbox" (the default)
+    //   "native"
+    //   "stretch"
+    //"SPLASH_SCREEN_TYPE": "letterbox",
+
+    // Path to the image to use for the app's icon.
+    // Usually something like "./Icon.png".
+    // "ICON": "",
+
+    // A regular expression to determine which assets
+    // should be compressed when building the final app.
+    // By default, text assets are not compressed.  Use
+    // this to compress certain text assets.  For example,
+    // ".*.plist$" will cause all files ending in ".plist"
+    // to be compressed.
+    //"COMPRESSED_ASSETS_PATTERN": "",
+    //"UNCOMPRESSED_ASSETS_PATTERN": "",
+
+    // Automatically convert audio to oggs. Defaults to true. 
+    // Can be configured per file with add params and "convert" 
+    // field or with the "CONVERTABLE_AUDIO_EXTENSIONS" flag.
+    //"CONVERT_AUDIO": false,
+
+    // Comma-separated list of file extensions that are safe to convert to OGGs
+    //"CONVERTABLE_AUDIO_EXTENSIONS": ".mp3,.wav,.caf,.m4a",
+    
+    // Compress PNGs with pngcrush. Defaults to true.
+    //"COMPRESS_PNGS": false,
+
+    // This will cache all converted assets (pngs, oggs, etc) 
+    // into the approj directory.  This is useful if you want to 
+    // persist the changes across builds or check them in source
+    // control so they are uses by Linux based builders. Note that
+    // if you disable this, your final build params file will contain 
+    // absolute paths and should not be checked in.
+    // Defaults to true.  
+    //"STORE_ASSESTS_IN_APPROJ": false,
+
+    // ICU_CONFIGS specifies the ICU (International Components for Unicode) database for the project
+    // The default is "normal" which meets the needs of most apps using NS Format classes and/or localization
+    // "full" will specify a complete database
+    // "none" will specify no database. Be careful - It's not always intutitive when Foundation depends upon ICU
+
+    // The normal table is 2762244 bytes compressed and 8622768 uncompressed
+    // The full table is 8396438 bytes compressed and 20775168 uncompressed
+
+    // You can also configure and build your own ICU table at http://apps.icu-project.org/datacustom/ICUData50.html
+    // Add it to the "add_params" "assets" section and specify the path to ICU_CONFIG
+    // For example TBD
+
+    "ICU_CONFIG" : "normal",
+
+    //Manifest extras
+    //A list of .xml files that contain snippets to be included in AndroidManifest.xml
+    //inside the <manifest>, <activity> and <application> tags respectively.
+    //"MANIFEST_EXTRAS": [],
+    //"ACTIVITY_MANIFEST_EXTRAS": [],
+    "APPLICATION_MANIFEST_EXTRAS": ["android/extra_application.xml"],  
+
+    // Advanced Options
+    //"NOTIFICATION_ICON":"",
+    //"TEMPLATE_VALUES":{},
+    //"OGGENC_OPTIONS":"",
+    //"AFCONVERT_OPTIONS":"",
+    //"PNGCRUSH_OPTIONS":"",
+    //"MIN_SDK": 9,
+    //"C2DM_SENDER": "",
+    //"HARDWARE_ACCELERATED": "",
+    //"NFC_SCHEME": "",
+    //"MPMETRICS_API_KEY": "",
+    //"RENAME_TARGET": true,
+
+  },
+
+  // Sometimes header include path ordering matters.  If so, put the ordering constraints into this
+  // array.  For example, if "./foo" has to come before "./bar", you would put:
+  // ["./foo", "./bar"]
+  // Note that "./some_other_include_path" doesn't appear in the list, since its order doesn't matter.
+  // You can also specify "*", which matches everything not already constrained.  This lets you put
+  // particular paths at the beginning or end of the list.  For example, ["./foo", "*", "./bar"].
+  "header_ordering_constraints": [],
+
+  // Edit this section to add and replace files and parameters to the generated settings for this project.
+  // If the generated settings for a particular file are incorrect, simply add it here with the settings
+  // you need and the final build parameters will only included the version specified here.
+  "add_params": {
+    // A list of pch files to -include.
+    // PCH files can be either a string, e.g., "./MyApp-Prefix.pch",
+    // or a dictionary specifying the pch and the environment where
+    // it should be used, e.g.,
+    // {"pch": "./prefix-android.pch", "env": {"TARGET_OS": "android"}}
+    "pchs": [],
+    
+    // A list of header search paths
+    // e.g. "./External/facebook-sdk/include"
+    "header_paths": [],
+    
+    // A list of global compile flags for the project.
+    // Flags can be either a string, e.g. "-Werror-shadow",
+    // or a dictionary specifying the flag and the environment
+    // that it should be used in, e.g.,
+    // {"flag": "-fstack-protector", "env": {"TARGET_OS": "android"}}
+      "flags": ["-U__STRICT_ANSI__"],
+    
+    // A dictionary of global compiler definitions for the project.
+    // Defines can be a simple key-value pair, e.g., "DEBUG": 1,
+    // or the value can be a dictionary specifying the value and the
+    // environment that it should be used in, e.g.,
+    // "SOME_DEFINE": {"value": "\"yep its building on android\"", "env": {"TARGET_OS": "android"}}
+    "defines": {},
+   
+    // A list of dependencies.  Typically these correspond to
+    // frameworks in the xcode project.
+      "deps": [
+               "SystemConfiguration", "libcurl", "sqlite", "zlib",
+               "AndroidSupport"
+               ],
+    
+    // A list of source files (e.g. .m, .mm, .c, .cc, and .cpp) files to build.
+    // Source files can be a string, e.g. "./main.c", or a dictionary specifying
+    // the file, any special flags, any defines, and the environment
+    // where it should be compiled, e.g.,
+    // {"source": "./PngImageLoader.m", "flags": ["-fstack-protector"], "defines": {"PNG": 1}, "env": {"TARGET_TEXTURE_FMT": "png"}}
+    "sources": [],
+    
+    // A list of glob inclusion filters for additional files.
+    // This can also be used to replace flags on multiple files.
+    // e.g. {"source":"./Server/Level_[0-9].m","flags": ["-fno-objc-arc"],  "defines": {"NDEBUG": 1}}
+    "sources_glob":[],
+    
+    // A list of assets to package with the application.
+    // Assets can be either a string, e.g., "./Info.plist",
+    // or a dictionary specifying the asset and the target path it should be written to
+    // in the app, and the environment it should be included with, e.g.,
+    // {"asset": "./Resources/cube_texture.pvr.ccz", "target": "Bundled Resources/", "env": {"TARGET_TEXTURE_FMT": "pvr"}}
+    // or a dictionary like above, but instead specifying the full target file name
+    // for the asset, e.g.,
+    // {"asset": "./Resources/cube_texture.pvr.ccz", "target": "Bundled Resources/cube_texture.pvr.gz", "env": {"TARGET_TEXTURE_FMT": "pvr"}}
+    "assets": [],
+
+    // A list of Info.plist files.  The first one in the list will be the one we consider the main Info.plist.
+    "infoplists": [],
+
+    //A list of specific java sources file to compile
+      "java_sources": [
+                       //"android/facebook/src/com/facebook/FacebookBridge.java",
+//                       "android/facebook/src/bolts/AggregateException.java",
+//                       "android/facebook/src/bolts/AndroidExecutors.java",
+//                       "android/facebook/src/bolts/AppLink.java",
+//                       "android/facebook/src/bolts/AppLinkNavigation.java",
+//                       "android/facebook/src/bolts/AppLinkResolver.java",
+//                       "android/facebook/src/bolts/AppLinks.java",
+//                       "android/facebook/src/bolts/Bolts.java",
+//                       "android/facebook/src/bolts/BoltsExecutors.java",
+//                       "android/facebook/src/bolts/CancellationToken.java",
+//                       "android/facebook/src/bolts/CancellationTokenSource.java",
+//                       "android/facebook/src/bolts/Capture.java",
+//                       "android/facebook/src/bolts/Continuation.java",
+//                       "android/facebook/src/bolts/MeasurementEvent.java",
+//                       "android/facebook/src/bolts/Task.java",
+//                       "android/facebook/src/bolts/WebViewAppLinkResolver.java",
+                       "android/facebook/src/com/facebook/AccessToken.java",
+                       "android/facebook/src/com/facebook/AccessTokenCache.java",
+                       "android/facebook/src/com/facebook/AccessTokenManager.java",
+                       "android/facebook/src/com/facebook/AccessTokenSource.java",
+                       "android/facebook/src/com/facebook/AccessTokenTracker.java",
+                       "android/facebook/src/com/facebook/appevents/AppEventsConstants.java",
+                       "android/facebook/src/com/facebook/appevents/AppEventsLogger.java",
+                       "android/facebook/src/com/facebook/appevents/FacebookTimeSpentData.java",
+                       "android/facebook/src/com/facebook/applinks/AppLinkData.java",
+                       "android/facebook/src/com/facebook/applinks/FacebookAppLinkResolver.java",
+                       "android/facebook/src/com/facebook/CallbackManager.java",
+                       "android/facebook/src/com/facebook/FacebookActivity.java",
+                       "android/facebook/src/com/facebook/FacebookAuthorizationException.java",
+                       "android/facebook/src/com/facebook/FacebookBroadcastReceiver.java",
+                       "android/facebook/src/com/facebook/FacebookButtonBase.java",
+                       "android/facebook/src/com/facebook/FacebookCallback.java",
+                       "android/facebook/src/com/facebook/FacebookContentProvider.java",
+                       "android/facebook/src/com/facebook/FacebookDialog.java",
+                       "android/facebook/src/com/facebook/FacebookDialogException.java",
+                       "android/facebook/src/com/facebook/FacebookException.java",
+                       "android/facebook/src/com/facebook/FacebookGraphResponseException.java",
+                       "android/facebook/src/com/facebook/FacebookOperationCanceledException.java",
+                       "android/facebook/src/com/facebook/FacebookRequestError.java",
+                       "android/facebook/src/com/facebook/FacebookSdk.java",
+                       "android/facebook/src/com/facebook/FacebookSdkNotInitializedException.java",
+                       "android/facebook/src/com/facebook/FacebookSdkVersion.java",
+                       "android/facebook/src/com/facebook/FacebookServiceException.java",
+                       "android/facebook/src/com/facebook/GraphRequest.java",
+                       "android/facebook/src/com/facebook/GraphRequestAsyncTask.java",
+                       "android/facebook/src/com/facebook/GraphRequestBatch.java",
+                       "android/facebook/src/com/facebook/GraphResponse.java",
+                       "android/facebook/src/com/facebook/HttpMethod.java",
+                       "android/facebook/src/com/facebook/internal/AnalyticsEvents.java",
+                       "android/facebook/src/com/facebook/internal/AppCall.java",
+                       "android/facebook/src/com/facebook/internal/AppEventsLoggerUtility.java",
+                       "android/facebook/src/com/facebook/internal/AttributionIdentifiers.java",
+                       "android/facebook/src/com/facebook/internal/BoltsMeasurementEventListener.java",
+                       "android/facebook/src/com/facebook/internal/BundleJSONConverter.java",
+                       "android/facebook/src/com/facebook/internal/CallbackManagerImpl.java",
+                       "android/facebook/src/com/facebook/internal/CollectionMapper.java",
+                       "android/facebook/src/com/facebook/internal/DialogFeature.java",
+                       "android/facebook/src/com/facebook/internal/DialogPresenter.java",
+                       "android/facebook/src/com/facebook/internal/FacebookDialogBase.java",
+                       "android/facebook/src/com/facebook/internal/FacebookDialogFragment.java",
+                       "android/facebook/src/com/facebook/internal/FacebookRequestErrorClassification.java",
+                       "android/facebook/src/com/facebook/internal/FacebookWebFallbackDialog.java",
+                       "android/facebook/src/com/facebook/internal/FileLruCache.java",
+                       "android/facebook/src/com/facebook/internal/GraphUtil.java",
+                       "android/facebook/src/com/facebook/internal/ImageDownloader.java",
+                       "android/facebook/src/com/facebook/internal/ImageRequest.java",
+                       "android/facebook/src/com/facebook/internal/ImageResponse.java",
+                       "android/facebook/src/com/facebook/internal/ImageResponseCache.java",
+                       "android/facebook/src/com/facebook/internal/JsonUtil.java",
+                       "android/facebook/src/com/facebook/internal/Logger.java",
+                       "android/facebook/src/com/facebook/internal/LoginAuthorizationType.java",
+                       "android/facebook/src/com/facebook/internal/Mutable.java",
+                       "android/facebook/src/com/facebook/internal/NativeAppCallAttachmentStore.java",
+                       "android/facebook/src/com/facebook/internal/NativeProtocol.java",
+                       "android/facebook/src/com/facebook/internal/package-info.java",
+                       "android/facebook/src/com/facebook/internal/PermissionType.java",
+                       "android/facebook/src/com/facebook/internal/PlatformServiceClient.java",
+                       "android/facebook/src/com/facebook/internal/ProfileInformationCache.java",
+                       "android/facebook/src/com/facebook/internal/ServerProtocol.java",
+                       "android/facebook/src/com/facebook/internal/UrlRedirectCache.java",
+                       "android/facebook/src/com/facebook/internal/Utility.java",
+                       "android/facebook/src/com/facebook/internal/Validate.java",
+                       "android/facebook/src/com/facebook/internal/WebDialog.java",
+                       "android/facebook/src/com/facebook/internal/WorkQueue.java",
+                       "android/facebook/src/com/facebook/LegacyTokenHelper.java",
+                       "android/facebook/src/com/facebook/LoggingBehavior.java",
+                       "android/facebook/src/com/facebook/login/DefaultAudience.java",
+                       "android/facebook/src/com/facebook/login/GetTokenClient.java",
+                       "android/facebook/src/com/facebook/login/GetTokenLoginMethodHandler.java",
+                       "android/facebook/src/com/facebook/login/KatanaProxyLoginMethodHandler.java",
+                       "android/facebook/src/com/facebook/login/LoginBehavior.java",
+                       "android/facebook/src/com/facebook/login/LoginClient.java",
+                       "android/facebook/src/com/facebook/login/LoginFragment.java",
+                       "android/facebook/src/com/facebook/login/LoginLogger.java",
+                       "android/facebook/src/com/facebook/login/LoginManager.java",
+                       "android/facebook/src/com/facebook/login/LoginMethodHandler.java",
+                       "android/facebook/src/com/facebook/login/LoginResult.java",
+                       "android/facebook/src/com/facebook/login/StartActivityDelegate.java",
+                       "android/facebook/src/com/facebook/login/WebViewLoginMethodHandler.java",
+                       "android/facebook/src/com/facebook/login/widget/LoginButton.java",
+                       "android/facebook/src/com/facebook/login/widget/ProfilePictureView.java",
+                       "android/facebook/src/com/facebook/login/widget/ToolTipPopup.java",
+                       "android/facebook/src/com/facebook/messenger/MessengerThreadParams.java",
+                       "android/facebook/src/com/facebook/messenger/MessengerUtils.java",
+                       "android/facebook/src/com/facebook/messenger/ShareToMessengerParams.java",
+                       "android/facebook/src/com/facebook/messenger/ShareToMessengerParamsBuilder.java",
+                       "android/facebook/src/com/facebook/Profile.java",
+                       "android/facebook/src/com/facebook/ProfileCache.java",
+                       "android/facebook/src/com/facebook/ProfileManager.java",
+                       "android/facebook/src/com/facebook/ProfileTracker.java",
+                       "android/facebook/src/com/facebook/ProgressNoopOutputStream.java",
+                       "android/facebook/src/com/facebook/ProgressOutputStream.java",
+                       "android/facebook/src/com/facebook/RequestOutputStream.java",
+                       "android/facebook/src/com/facebook/RequestProgress.java",
+                       "android/facebook/src/com/facebook/share/internal/AppInviteDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/GameRequestValidation.java",
+                       "android/facebook/src/com/facebook/share/internal/LegacyNativeDialogParameters.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeActionController.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeBoxCountView.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeButton.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeContent.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeDialog.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/LikeStatusClient.java",
+                       "android/facebook/src/com/facebook/share/internal/MessageDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/NativeDialogParameters.java",
+                       "android/facebook/src/com/facebook/share/internal/OpenGraphActionDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/OpenGraphJSONUtility.java",
+                       "android/facebook/src/com/facebook/share/internal/OpenGraphMessageDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/ResultProcessor.java",
+                       "android/facebook/src/com/facebook/share/internal/ShareConstants.java",
+                       "android/facebook/src/com/facebook/share/internal/ShareContentValidation.java",
+                       "android/facebook/src/com/facebook/share/internal/ShareDialogFeature.java",
+                       "android/facebook/src/com/facebook/share/internal/ShareInternalUtility.java",
+                       "android/facebook/src/com/facebook/share/internal/VideoUploader.java",
+                       "android/facebook/src/com/facebook/share/internal/WebDialogParameters.java",
+                       "android/facebook/src/com/facebook/share/model/AppGroupCreationContent.java",
+                       "android/facebook/src/com/facebook/share/model/AppInviteContent.java",
+                       "android/facebook/src/com/facebook/share/model/GameRequestContent.java",
+                       "android/facebook/src/com/facebook/share/model/ShareContent.java",
+                       "android/facebook/src/com/facebook/share/model/ShareLinkContent.java",
+                       "android/facebook/src/com/facebook/share/model/ShareModel.java",
+                       "android/facebook/src/com/facebook/share/model/ShareModelBuilder.java",
+                       "android/facebook/src/com/facebook/share/model/ShareOpenGraphAction.java",
+                       "android/facebook/src/com/facebook/share/model/ShareOpenGraphContent.java",
+                       "android/facebook/src/com/facebook/share/model/ShareOpenGraphObject.java",
+                       "android/facebook/src/com/facebook/share/model/ShareOpenGraphValueContainer.java",
+                       "android/facebook/src/com/facebook/share/model/SharePhoto.java",
+                       "android/facebook/src/com/facebook/share/model/SharePhotoContent.java",
+                       "android/facebook/src/com/facebook/share/model/ShareVideo.java",
+                       "android/facebook/src/com/facebook/share/model/ShareVideoContent.java",
+                       "android/facebook/src/com/facebook/share/ShareApi.java",
+                       "android/facebook/src/com/facebook/share/ShareBuilder.java",
+                       "android/facebook/src/com/facebook/share/Sharer.java",
+                       "android/facebook/src/com/facebook/share/widget/AppInviteDialog.java",
+                       "android/facebook/src/com/facebook/share/widget/CreateAppGroupDialog.java",
+                       "android/facebook/src/com/facebook/share/widget/GameRequestDialog.java",
+                       "android/facebook/src/com/facebook/share/widget/JoinAppGroupDialog.java",
+                       "android/facebook/src/com/facebook/share/widget/LikeView.java",
+                       "android/facebook/src/com/facebook/share/widget/MessageDialog.java",
+                       "android/facebook/src/com/facebook/share/widget/SendButton.java",
+                       "android/facebook/src/com/facebook/share/widget/ShareButton.java",
+                       "android/facebook/src/com/facebook/share/widget/ShareButtonBase.java",
+                       "android/facebook/src/com/facebook/share/widget/ShareDialog.java",
+                       "android/facebook/src/com/facebook/TestUserManager.java",
+                       ],
+
+    //A list of the java root source directories
+    "java_sourcepaths": ["android/facebook/src"],
+
+    //A list of java Librarys (jars)
+    "java_libs": [],
+
+    //A list of java resource directories
+    "java_res_dirs": ["android/facebook/res"],
+
+    //A list of libs to include with the APK
+    "libs":[],
+
+    //Additional linker (ld) flags.
+    "link_flags":[],
+
+    //Sub projects
+    "modules": [],
+  },
+
+  // Edit this section to remove files and parameters from the generated #{$build_params_file} for this project.
+  // For this section, only specify the file name as a string in the cases where you could normally
+  // also specify an array or a dictionary.  To override the generated settings for a particular
+  // file, simply add it to the "add_params" list above with the settings you want.
+  "remove_params": {
+    // A list of pch files to remove from -include.
+    // PCH files can be either a string, e.g., "./MyApp-Prefix.pch",
+    // or a dictionary specifying the pch and the environment where
+    // it should be used, e.g.,
+    // {"pch": "./prefix-android.pch", "env": {"TARGET_OS": "android"}}
+    "pchs": [],
+    
+    // A list of header search paths.
+    // e.g. "./External/facebook-sdk/include"
+    "header_paths": [],
+    
+    // A list of global compile flags for the project.
+    // Flags can be either a string, e.g. "-Werror-shadow",
+    // or a dictionary specifying the flag and the environment
+    // that it should be used in, e.g.,
+    // {"flag": "-fstack-protector", "env": {"TARGET_OS": "android"}}
+    "flags": [],
+    
+    // A dictionary of global compiler definitions for the project.
+    // Defines can be a simple key-value pair, e.g., "DEBUG": 1,
+    // or the value can be a dictionary specifying the value and the
+    // environment that it should be used in, e.g.,
+    // "SOME_DEFINE": {"value": "\"yep its building on android\"", "env": {"TARGET_OS": "android"}}
+    "defines": {},
+   
+    // A list of dependencies.  Typically these correspond to
+    // frameworks in the xcode project.
+    "deps": ["Social/android/Facebook"],
+    
+    // A list of source files (e.g. .m, .mm, .c, .cc, and .cpp) files to remove from the build.
+    // e.g. "./External/Reachabilty/Reachability.m"
+    "sources": [],
+    
+    // A list of glob removal filters to filter out source files.
+    // e.g. "./Server/Level_[0-9].m"
+    "sources_glob":[],
+    
+    // A list of assets to package with the application.
+    // Assets can be either a string, e.g., "./Info.plist",
+    // a dictionary specifying the asset, the target path it should be written to
+    // in the app, and the environment it should be included with, e.g.,
+    // {"asset": "./Resources/cube_texture.pvr.ccz", "target_path": "Bundled Resources/", "env": {"TARGET_TEXTURE_FMT": "pvr"}}
+    // or a dictionary like above, but instead specifying the full target file name
+    // for the asset, e.g.,
+    // {"asset": "./Resources/cube_texture.pvr.ccz", "target_file": "Bundled Resources/cube_texture.pvr.gz", "env": {"TARGET_TEXTURE_FMT": "pvr"}}
+    "assets": [],
+    
+    // A list of Info.plist files.  The first one in the list will be the one we consider the main Info.plist.
+    "infoplists": [],
+
+    //A list of specific java sources file to compile
+    "java_sources": [],
+
+    //A list of the java root source directories
+    "java_sourcepaths": [],
+
+    //A list of java Librarys (jars)
+    "java_libs": [],
+
+    //A list of java resource directories
+    "java_res_dirs": [],
+
+    //A list of libs to include with the APK
+    "libs":[],
+
+    //Additional linker (ld) flags.
+    "link_flags":[],
+
+    //Sub projects
+    "modules": [],
+  }
+}

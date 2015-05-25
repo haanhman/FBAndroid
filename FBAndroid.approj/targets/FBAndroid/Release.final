@@ -1,0 +1,1202 @@
+{
+    "assets": [
+        {
+            "asset": "Source/Resources/Icons/Settings.png", 
+            "target": "Settings.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "FBAndroid.approj/configuration.json", 
+            "target": "configuration.json"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad@2x.png", 
+            "target": "iPad@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad.png", 
+            "target": "iPad.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad-old@2x.png", 
+            "target": "iPad-old@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone-old@2x.png", 
+            "target": "iPhone-old@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/configCocos2d.plist", 
+            "target": "Published-iOS/configCocos2d.plist"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/fileLookup.plist", 
+            "target": "Published-iOS/fileLookup.plist"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/MainScene.ccbi", 
+            "target": "Published-iOS/MainScene.ccbi"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/spriteFrameFileList.plist", 
+            "target": "Published-iOS/spriteFrameFileList.plist"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/Strings.ccbLang", 
+            "target": "Published-iOS/Strings.ccbLang"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbButtonHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbButtonHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbButtonNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbButtonNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbParticleFire.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbParticleFire.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbParticleMagic.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbParticleMagic.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbParticleSmoke.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbParticleSmoke.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbParticleSnow.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbParticleSnow.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbParticleStars.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbParticleStars.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbSliderBgHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbSliderBgHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbSliderBgNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbSliderBgNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbSliderHandle.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbSliderHandle.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phone/ccbTextField.png", 
+            "target": "Published-iOS/ccbResources/resources-phone/ccbTextField.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbButtonHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbButtonHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbButtonNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbButtonNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbParticleFire.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbParticleFire.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbParticleMagic.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbParticleMagic.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbParticleSmoke.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbParticleSmoke.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbParticleSnow.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbParticleSnow.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbParticleStars.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbParticleStars.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbSliderBgHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbSliderBgHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbSliderBgNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbSliderBgNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbSliderHandle.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbSliderHandle.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-phonehd/ccbTextField.png", 
+            "target": "Published-iOS/ccbResources/resources-phonehd/ccbTextField.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbButtonHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbButtonHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbButtonNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbButtonNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbParticleFire.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbParticleFire.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbParticleMagic.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbParticleMagic.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbParticleSmoke.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbParticleSmoke.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbParticleSnow.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbParticleSnow.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbParticleStars.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbParticleStars.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbSliderBgHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbSliderBgHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbSliderBgNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbSliderBgNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbSliderHandle.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbSliderHandle.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablet/ccbTextField.png", 
+            "target": "Published-iOS/ccbResources/resources-tablet/ccbTextField.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbButtonHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbButtonHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbButtonNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbButtonNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbParticleFire.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbParticleFire.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbParticleMagic.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbParticleMagic.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbParticleSmoke.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbParticleSmoke.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbParticleSnow.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbParticleSnow.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbParticleStars.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbParticleStars.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbSliderBgHighlighted.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbSliderBgHighlighted.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbSliderBgNormal.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbSliderBgNormal.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbSliderHandle.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbSliderHandle.png"
+        }, 
+        {
+            "asset": "Source/Resources/Published-iOS/ccbResources/resources-tablethd/ccbTextField.png", 
+            "target": "Published-iOS/ccbResources/resources-tablethd/ccbTextField.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/Settings@2x.png", 
+            "target": "Settings@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "configuration_2.json", 
+            "target": "configuration_2.json"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone-old.png", 
+            "target": "iPhone-old.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone.png", 
+            "target": "iPhone.png"
+        }, 
+        {
+            "asset": "README.md", 
+            "target": "README.md"
+        }, 
+        {
+            "asset": "Source/Resources/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPhone@2x.png", 
+            "target": "iPhone@2x.png"
+        }, 
+        {
+            "asset": "Source/Resources/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Source/Resources/Icons/iPad-old.png", 
+            "target": "iPad-old.png"
+        }, 
+        {
+            "asset": "android/extra_application.xml", 
+            "target": "extra_application.xml"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "FBAndroid", 
+        "APPLICATION_IDENTIFIER": "com.anhmantk.fb", 
+        "APPLICATION_MANIFEST_EXTRAS": [
+            "android/extra_application.xml"
+        ], 
+        "APPLICATION_NAME": "FBAndroid", 
+        "FEATURES": [
+            "opengles2", 
+            "facebook"
+        ], 
+        "ICU_CONFIG": "normal", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.1.7", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "FBAndroid", 
+            "PRODUCT_NAME": "FBAndroid"
+        }
+    }, 
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 50000
+    }, 
+    "deps": [
+        "UIKit", 
+        "GLKit", 
+        "QuartzCore", 
+        "OpenGLES", 
+        "OpenAL", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "CoreText", 
+        "SystemConfiguration", 
+        "libcurl", 
+        "sqlite", 
+        "zlib", 
+        "AdMob", 
+        "Chartboost", 
+        "GameKitPlus", 
+        "StoreKit"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }, 
+        "-U__STRICT_ANSI__"
+    ], 
+    "header_paths": [
+        {
+            "header_path": "FBAndroid-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "FBAndroid-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "FBAndroid-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "FBAndroid-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Source/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "FacebookConnect.h": {
+                    "key": "FacebookConnect.h", 
+                    "prefix": "java-warppers/", 
+                    "suffix": "FacebookConnect.h"
+                }, 
+                "MainScene.h": {
+                    "key": "MainScene.h", 
+                    "prefix": "Source/", 
+                    "suffix": "MainScene.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "Source/", 
+                    "suffix": "Prefix.pch"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/tmp/tmpXRlyaw/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/kazmath/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Support", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/Chipmunk/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Actions", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Session", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Source/libs/cocos2d-iphone/external/ObjectAL/Support", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/tmp/tmpXRlyaw/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/tmp/tmpXRlyaw/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./Source/Resources/Info.plist"
+    ], 
+    "java_libs": [], 
+    "java_res_dirs": [
+        "android/facebook/res"
+    ], 
+    "java_sourcepaths": [
+        "android/facebook/src", 
+        "java/src"
+    ], 
+    "java_sources": [
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginClient.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "java/src/anhmantk/FacebookConnect.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/GraphRequestAsyncTask.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/CancellationTokenSource.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/MessageDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/DefaultAudience.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginResult.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/ShareBuilder.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/ShareDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/AppEventsLoggerUtility.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AppLink.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/Logger.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookOperationCanceledException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/FacebookDialogBase.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/GraphUtil.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/AttributionIdentifiers.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/ShareButton.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookBroadcastReceiver.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/BoltsExecutors.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/NativeDialogParameters.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/AppInviteDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/messenger/MessengerUtils.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareModelBuilder.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AndroidExecutors.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/PermissionType.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/WebViewAppLinkResolver.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginManager.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ProfileInformationCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/LoggingBehavior.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/appevents/AppEventsConstants.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/StartActivityDelegate.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/appevents/FacebookTimeSpentData.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/FacebookRequestErrorClassification.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/GraphRequest.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareOpenGraphObject.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/ProfileTracker.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/FacebookWebFallbackDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareOpenGraphValueContainer.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/NativeAppCallAttachmentStore.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/GetTokenClient.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/RequestOutputStream.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/PlatformServiceClient.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ServerProtocol.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ImageDownloader.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookDialogException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/JsonUtil.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookGraphResponseException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookSdk.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/AccessTokenTracker.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/package-info.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/appevents/AppEventsLogger.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/WorkQueue.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/widget/ToolTipPopup.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginFragment.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/FacebookDialogFragment.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/OpenGraphMessageDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookServiceException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/DialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AppLinks.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/Utility.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ImageResponse.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/ResultProcessor.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareModel.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/Capture.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/WebDialogParameters.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/AppCall.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/HttpMethod.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ImageRequest.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LegacyNativeDialogParameters.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AppLinkResolver.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/ShareDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/Continuation.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AppLinkNavigation.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/TestUserManager.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/WebViewLoginMethodHandler.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeButton.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/GraphRequestBatch.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/CreateAppGroupDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareLinkContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/BoltsMeasurementEventListener.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/Sharer.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/SendButton.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/KatanaProxyLoginMethodHandler.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/messenger/ShareToMessengerParamsBuilder.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/widget/ProfilePictureView.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/Profile.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/messenger/ShareToMessengerParams.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/AppInviteContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookContentProvider.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/AccessTokenSource.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/MessageDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/ShareContentValidation.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/GameRequestDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/JoinAppGroupDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/OpenGraphActionDialogFeature.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/widget/LoginButton.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/ImageResponseCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookAuthorizationException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeStatusClient.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/ProfileManager.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/Validate.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/GameRequestContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/WebDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/applinks/AppLinkData.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/RequestProgress.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/MeasurementEvent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeBoxCountView.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/SharePhotoContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/LikeActionController.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/LikeView.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/CancellationToken.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/FileLruCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/AnalyticsEvents.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/Task.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/NativeProtocol.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/DialogPresenter.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginBehavior.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookActivity.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/GameRequestValidation.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/UrlRedirectCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/applinks/FacebookAppLinkResolver.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookSdkNotInitializedException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/AppInviteDialog.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/CollectionMapper.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/CallbackManagerImpl.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/AccessTokenManager.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/ShareApi.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/AggregateException.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/CallbackManager.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginMethodHandler.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookRequestError.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/ProgressOutputStream.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookButtonBase.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/LegacyTokenHelper.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/ShareInternalUtility.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareVideoContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/ProfileCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/AppGroupCreationContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/LoginLogger.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareVideo.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/ShareConstants.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/BundleJSONConverter.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/AccessTokenCache.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/VideoUploader.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/internal/OpenGraphJSONUtility.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookCallback.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/Mutable.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareOpenGraphContent.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/SharePhoto.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/ProgressNoopOutputStream.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/FacebookSdkVersion.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/widget/ShareButtonBase.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/AccessToken.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/share/model/ShareOpenGraphAction.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/GraphResponse.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/login/GetTokenLoginMethodHandler.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/internal/LoginAuthorizationType.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/com/facebook/messenger/MessengerThreadParams.java"
+        }, 
+        {
+            "language": "unknown", 
+            "source": "android/facebook/src/bolts/Bolts.java"
+        }
+    ], 
+    "libs": [
+        "z", 
+        "sqlite3"
+    ], 
+    "link_flags": [], 
+    "modules": [
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "Chipmunk7-ios", 
+            "project_config": "Release", 
+            "target": "ObjectiveChipmunk-iPhone"
+        }, 
+        {
+            "build_cwd": "Source/libs/cocos2d-iphone", 
+            "project": "cocos2d-ios", 
+            "project_config": "Release", 
+            "target": "cocos2d"
+        }
+    ], 
+    "pchs": [
+        "./Source/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/main.m"
+        }, 
+        {
+            "language": "objc", 
+            "source": "java-warppers/FacebookConnect.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Source/MainScene.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "app", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "FBAndroid.xcodeproj", 
+    "xibs": []
+}
