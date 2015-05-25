@@ -26,7 +26,7 @@ public class FacebookConnect extends Activity {
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //not run here
+        //never get to here
         super.onCreate(savedInstanceState);
         Log.e(TAG,"==> onCreate");
     }
