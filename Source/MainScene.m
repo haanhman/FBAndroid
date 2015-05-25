@@ -47,14 +47,4 @@
     
 }
 
-//- (id)init
-//{
-//#if ANDROID
-//    FacebookConnect *bridgeObject = [[FacebookConnect alloc] init];
-//    AndroidActivity *activity     = [AndroidActivity currentActivity];
-//    [bridgeObject initFB:activity];
-//#endif
-//    return self;
-//}
-
 @end
